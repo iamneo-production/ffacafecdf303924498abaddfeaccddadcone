@@ -1,0 +1,65 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #393E46;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+  
+  button {
+    background-color: #FFD700; /* Golden yellow background color */
+    color: #393E46; /* Dark background color */
+    padding: 10px 20px; /* Adding padding around the button text */
+    border: none; /* Removing default button border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1.5rem; /* Font size for the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 20px; /* Adding some space between the button and other elements */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow effect */
+    transition: background-color 0.3s ease-in-out; /* Adding smooth transition effect */
+  }
+  
+  /* Styling for button on hover */
+  button:hover {
+    background-color: #FFD700; /* Lighten the background color on hover */
+  }
+  
+  /* Styling for button when clicked */
+  button:active {
+    transform: translateY(2px); /* Adding a slight vertical shift on click */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adjusting the shadow on click */
+  }
